@@ -1,0 +1,74 @@
+﻿
+<div class="row">
+    <div class="col-md-2">
+        &nbsp;
+    </div>
+    <div class="col-md-8">
+        <div ng-show="showEdit">
+            <h2 class="form-login-heading">Appointment</h2>
+            <input type="text" class="form-control" placeholder="Patient First Name" data-ng-model="currentAppointment.PatientFirstName" ng-disabled="isDoctor" required autofocus>
+            <input type="text" class="form-control" placeholder="Patient Last Name" data-ng-model="currentAppointment.PatientLastName" ng-disabled="isDoctor" required>
+            <input type="text" class="form-control" placeholder="Gender" data-ng-model="currentAppointment.Gender" ng-disabled="isDoctor" required>
+            <input type="text" class="form-control" placeholder="DateTime" data-ng-model="currentAppointment.DateTime" ng-disabled="isDoctor" required>
+            <input type="text" class="form-control" placeholder="Doctor's Comment" data-ng-model="currentAppointment.DoctorsComment" ng-disabled="isNurse" required>
+            <strong> Is Completed</strong>
+            <input type="checkbox" class="form-control" placeholder="Is Completed" data-ng-model="currentAppointment.IsCompleted" ng-disabled="isNurse" required>
+            <button class="btn btn-md btn-info btn-block" type="submit" data-ng-click="saveClick()">Save</button>
+            <button class="btn btn-md btn-default btn-block" type="submit" data-ng-click="cancel()">Cancell</button>
+            <div data-ng-hide="message == ''" class="alert alert-danger">
+                {{message}}
+            </div>
+        </div>
+        <button ng-show="!showEdit" class="btn btn-md btn-default btn-info" type="submit" ng-disabled="isDoctor" data-ng-click="addNew()">New Appointment</button>
+        <table class="table table-striped table-bordered table-hover">
+            <thead>
+            <tr>
+                <th>Appointment ID</th>
+                <th>Patient First Name</th>
+                <th>Patient Last Name</th>
+                <th>Gender</th>
+                <th>Date</th>
+                <th>Doctor Id</th>
+                <th></th>
+                <th></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr data-ng-repeat="appointment in appointments">
+                <td>
+                    {{ appointment.AppointmentId }}
+                </td>
+                <td>
+                    {{ appointment.PatientFirstName }}
+                </td>
+                <td>
+                    {{ appointment.PatientLastName }}
+                </td>
+                <td>
+                    <div ng-show="appointment.Gender === 0">Male</div>
+                    <div ng-show="appointment.Gender === 1">Female</div>
+                </td>
+                <td>
+                    {{appointment.DateTime}}
+                </td>
+                <td>
+                    {{appointment.UserId}}
+                </td>
+                <td>
+                    <button class="btn btn-md btn-info btn-block" data-ng-click="setCurrentAppointment(appointment)">Edit</button>
+                </td>
+                <td>
+                    <button class="btn btn-md btn-block btn-danger" data-ng-click="delete(appointment)">Delete</button>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+        <div data-ng-hide="message == ''" class="alert alert-danger">
+            {{message}}
+        </div>
+    </div>
+
+    <div class="col-md-2">
+        &nbsp;
+    </div>
+</div>

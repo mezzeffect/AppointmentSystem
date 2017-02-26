@@ -1,0 +1,14 @@
+G:\Source\p4\MohammedEzzatAwad-puzzlefour-d9145718ddfa\PuzzleFourGlossary.Dto\bin\Debug\AppointmentSystem.Dto.dll
+G:\Source\p4\MohammedEzzatAwad-puzzlefour-d9145718ddfa\PuzzleFourGlossary.Dto\bin\Debug\AppointmentSystem.Dto.pdb
+G:\Source\p4\MohammedEzzatAwad-puzzlefour-d9145718ddfa\PuzzleFourGlossary.Dto\bin\Debug\AppointmentSystem.Common.dll
+G:\Source\p4\MohammedEzzatAwad-puzzlefour-d9145718ddfa\PuzzleFourGlossary.Dto\bin\Debug\AppointmentSystem.Common.pdb
+G:\Source\p4\MohammedEzzatAwad-puzzlefour-d9145718ddfa\PuzzleFourGlossary.Dto\obj\Debug\AppointmentSystem.Dto.csprojResolveAssemblyReference.cache
+G:\Source\p4\MohammedEzzatAwad-puzzlefour-d9145718ddfa\PuzzleFourGlossary.Dto\obj\Debug\AppointmentSystem.Dto.dll
+G:\Source\p4\MohammedEzzatAwad-puzzlefour-d9145718ddfa\PuzzleFourGlossary.Dto\obj\Debug\AppointmentSystem.Dto.pdb
+G:\Source\p4\MohammedEzzatAwad-puzzlefour-d9145718ddfa\AppointmentSystem.Dto\bin\Debug\AppointmentSystem.Dto.dll
+G:\Source\p4\MohammedEzzatAwad-puzzlefour-d9145718ddfa\AppointmentSystem.Dto\bin\Debug\AppointmentSystem.Dto.pdb
+G:\Source\p4\MohammedEzzatAwad-puzzlefour-d9145718ddfa\AppointmentSystem.Dto\bin\Debug\AppointmentSystem.Common.dll
+G:\Source\p4\MohammedEzzatAwad-puzzlefour-d9145718ddfa\AppointmentSystem.Dto\bin\Debug\AppointmentSystem.Common.pdb
+G:\Source\p4\MohammedEzzatAwad-puzzlefour-d9145718ddfa\AppointmentSystem.Dto\obj\Debug\AppointmentSystem.Dto.csprojResolveAssemblyReference.cache
+G:\Source\p4\MohammedEzzatAwad-puzzlefour-d9145718ddfa\AppointmentSystem.Dto\obj\Debug\AppointmentSystem.Dto.dll
+G:\Source\p4\MohammedEzzatAwad-puzzlefour-d9145718ddfa\AppointmentSystem.Dto\obj\Debug\AppointmentSystem.Dto.pdb
