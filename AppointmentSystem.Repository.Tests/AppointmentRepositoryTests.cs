@@ -130,18 +130,18 @@ namespace AppointmentSystem.Repository.Tests
         {
             //arrange 
             var repo = GetMockDbContextRepository();
-            var glossary = new Appointment() { PatientFirstName = "rath", PatientLastName = "The anger of rage"};
+            var glossary = new Appointment {PatientFirstName = "rath", PatientLastName = "The anger of rage"};
             var result = new Appointment();
             _mockAppointmentDataContext.Setup(g => g.SetModified(It.IsAny<object>())).Callback((object o) =>
-                                                                                                {
-                                                                                                    result =
-                                                                                                        o as Appointment;
-                                                                                                });
+            {
+                result =
+                    o as Appointment;
+            });
             //act
             repo.Update(glossary);
 
             //assert
-            Assert.AreEqual(glossary,result);
+            Assert.AreEqual(glossary, result);
         }
 
         [Test]

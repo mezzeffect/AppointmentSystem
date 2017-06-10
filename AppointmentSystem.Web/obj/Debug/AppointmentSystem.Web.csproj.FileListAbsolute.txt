@@ -1,5 +1,0 @@
-G:\Source\p4\MohammedEzzatAwad-puzzlefour-d9145718ddfa\AppointmentSystem.Web\bin\AppointmentSystem..Web.dll.config
-G:\Source\p4\MohammedEzzatAwad-puzzlefour-d9145718ddfa\AppointmentSystem.Web\bin\AppointmentSystem..Web.dll
-G:\Source\p4\MohammedEzzatAwad-puzzlefour-d9145718ddfa\AppointmentSystem.Web\bin\AppointmentSystem..Web.pdb
-G:\Source\p4\MohammedEzzatAwad-puzzlefour-d9145718ddfa\AppointmentSystem.Web\obj\Debug\AppointmentSystem..Web.dll
-G:\Source\p4\MohammedEzzatAwad-puzzlefour-d9145718ddfa\AppointmentSystem.Web\obj\Debug\AppointmentSystem..Web.pdb
