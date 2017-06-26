@@ -1,0 +1,7 @@
+.searchBox {
+  background: rgba(255,255,255,0.1);
+  padding: 20px 10px 20px;
+  margin-bottom: 20px;
+  border-top: 1px solid #1b496c;
+  border-bottom: 1px solid #1b496c;
+}

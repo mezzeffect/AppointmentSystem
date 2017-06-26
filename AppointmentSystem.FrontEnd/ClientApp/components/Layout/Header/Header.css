@@ -1,0 +1,64 @@
+.root {
+  /*margin: 0px -15px;*/
+}
+
+.navbar {
+  /*border-radius: 0px;*/
+  background: rgba(0,0,0,0.25);
+  border-color: transparent;
+}
+
+.navLink{
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+  color: #b4dbff !important;
+}
+
+.navLink:hover {
+  color: #fff !important;
+}
+
+.navText{
+  margin-top: 50px !important;
+  margin-bottom: 50px !important;
+  color: #b4dbff !important;
+}
+
+.navText a {
+  color: #b4dbff !important;
+}
+
+.navText a:hover {
+  color: #fff !important;
+}
+
+.brandLink {
+    text-transform: uppercase;
+    color: #fff !important;
+}
+
+.row {
+  padding: 40px;
+}
+
+.title {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1024px) {
+
+  .header {
+    display: flex;
+  }
+
+  .row {
+    padding: 0 16px;
+  }
+
+}
+
+.welcome .name{
+  font-weight: bold;
+  color: #ccc;
+}

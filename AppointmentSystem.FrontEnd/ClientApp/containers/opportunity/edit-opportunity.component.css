@@ -1,0 +1,26 @@
+.root {
+
+}
+
+.heigherRow {
+    padding: 15px 0px;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.info {
+    color: #fff;
+}
+
+.buttonsContainer {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.opportunityDetailsContainer {
+    background: rgba(0,0,0,0.15);
+    padding: 15px 30px;
+    border-radius: 5px;
+}

@@ -1,0 +1,14 @@
+.hasError input{
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.helpError {
+    background: #a94442;
+    padding: 3px 10px;
+    color: #fff !important;
+    margin-top: 0px;
+    border-radius: 3px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}

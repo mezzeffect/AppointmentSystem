@@ -1,0 +1,1 @@
+{"version":3,"file":"technology.api.js","sourceRoot":"","sources":["../../ClientApp/api/technology.api.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,MAAM,OAAO,CAAC;AAI1B,MAAM;IAGF,MAAM,CAAC,eAAe;QAClB,MAAM,CAAC,KAAK,CAAC,GAAG,CAAC,GAAG,aAAa,CAAC,cAAc,qBAAqB,CAAC,CAAC;IAC3E,CAAC;;AAJM,4BAAc,GAAG,qBAAqB,CAAA"}

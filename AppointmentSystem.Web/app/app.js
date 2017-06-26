@@ -42,8 +42,8 @@ app.config(function ($routeProvider) {
 
 });
 
-//var serviceBase = 'http://localhost:41484/';
-var serviceBase = 'http://10.1.23.81:9090/';
+var serviceBase = 'http://localhost:41484/';
+//var serviceBase = 'http://10.1.23.81:9090/';
 app.constant('ngAuthSettings', {
     apiServiceBaseUri: serviceBase,
     clientId: 'ngAuthApp'

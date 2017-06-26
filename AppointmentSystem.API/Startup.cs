@@ -15,6 +15,7 @@ using AppointmentSystem.Repository;
 using Autofac;
 using Autofac.Integration.WebApi;
 using Microsoft.Owin;
+using Microsoft.Owin.Cors;
 using Microsoft.Owin.Security.OAuth;
 using Owin;
 
@@ -68,8 +69,8 @@ namespace AppointmentSystem.API
             // Register the Autofac middleware FIRST. This also adds
             // Autofac-injected middleware registered with the container.
             app.UseAutofacMiddleware(container);
+            app.UseCors(CorsOptions.AllowAll);
             ConfigureOAuth(app);
-            app.UseCors(Microsoft.Owin.Cors.CorsOptions.AllowAll);
             app.UseAutofacWebApi(config);
             app.UseWebApi(config);
             //create database if not existing

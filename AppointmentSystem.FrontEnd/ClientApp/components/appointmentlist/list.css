@@ -1,0 +1,42 @@
+.opportunitiesPagination{
+  margin: 0px;
+}
+
+.total {
+  margin: 8px 0px;
+  font-style: italic;
+}
+
+.opportunityTable {
+  border-top: 1px solid #1b496c;
+  border-bottom: 1px solid #1b496c;
+}
+.opportunityTable tr:not(:first-child){
+  background: rgba(255,255,255,0.1);
+}
+.opportunityTable tr:not(:first-child):hover{
+  background: rgba(0,0,0,.25);
+}
+
+.opportunityTable tr td,
+.opportunityTable tr th {
+  padding: 10px 15px;
+  border-top: 1px solid #1b496c;
+}
+
+.opportunityTable tr th {
+  background: rgba(255,255,255,0.25);
+  color: #fff;
+}
+
+.opportunityLink{
+  color: #b4dbff;
+  text-decoration: underline;
+}
+
+.opportunityLink:hover,
+.opportunityLink:focus,
+.opportunityLink:active{
+  color: #fff;
+  text-decoration: none;
+}

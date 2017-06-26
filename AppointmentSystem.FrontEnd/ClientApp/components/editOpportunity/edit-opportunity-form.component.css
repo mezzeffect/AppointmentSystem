@@ -1,0 +1,9 @@
+.opportunityFormContainer {
+    background: rgba(0,0,0,0.15);
+    padding: 30px 30px 15px;
+    border-radius: 5px;
+}
+
+.opportunityFormContainer input {
+    background: #cce5fd;
+}

@@ -1,0 +1,78 @@
+.topHeader {
+  margin-top: 150px;
+  color: #fff;
+  text-transform: capitalize;
+  font-family: helvatica;
+  text-align: center;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.customAlert p {
+    font-size: 20px;
+}
+
+.topHeader small {
+    color: #aaa;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.forms {
+    margin-top: 30px;
+    padding: 30px 20px 20px;
+    background: #FFF;
+    box-shadow: 0px 0px 30px #333;
+    border-radius: 10px;
+}
+
+.forms form label{
+    /*font-weight: normal;*/
+    color: #fff;
+}
+
+.forms form input {
+  background: #dcefff;
+  border: 1px solid #84c3f9;
+  height: auto;
+  color: #093e5e;
+  padding: 10px;
+  box-shadow: 0px 2px 5px #95c6ef inset;
+}
+
+.forms form input:focus,
+.forms form input:active {
+    border: 1px solid #3272a8;
+    outline: none;
+    background: #a7d7ff;
+    box-shadow: 0px 2px 5px #6294bd inset !important;
+}
+
+.forms form ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #9abad7;
+}
+.forms form ::-moz-placeholder { /* Firefox 19+ */
+  color: #9abad7;
+}
+.forms form :-ms-input-placeholder { /* IE 10+ */
+  color: #9abad7;
+}
+.forms form :-moz-placeholder { /* Firefox 18- */
+  color: #9abad7;
+}
+
+.forms form button {
+    height: 42px;
+}
+
+.title {
+    color: #174163;
+    padding: 0px 0px 20px;
+    margin: 0px 0px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'helvatica';
+    font-size: 3rem;
+    text-shadow: 0px 1px 1px #fff;
+}
+

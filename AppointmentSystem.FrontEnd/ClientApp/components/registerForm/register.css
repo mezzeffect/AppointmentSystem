@@ -1,0 +1,24 @@
+.root {}
+
+
+@media (min-width : 768px) {
+    .no_padding_left {
+        padding-left:0px;
+    }
+}
+
+.btn {
+    text-transform: uppercase;
+}
+
+.gotologin {
+    margin-top: 20px !important;
+    color: #23527c;
+    font-weight: bold;
+    text-shadow: 0px 1px 1px #fff;
+}
+
+.gotologin:hover {
+    color: #15314A;
+    text-decoration: none;
+}

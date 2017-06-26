@@ -1,0 +1,1 @@
+{"version":3,"file":"global.actions.js","sourceRoot":"","sources":["../../ClientApp/actions/global.actions.ts"],"names":[],"mappings":"AACA,OAAO,EAAe,WAAW,EAAE,MAAM,wBAAwB,CAAC;AAElE,MAAM,sBAAsB,OAAa;IACrC,MAAM,CAAC,EAAE,IAAI,EAAE,WAAW,CAAC,0BAA0B,EAAE,OAAO,EAAE,CAAC;AACrE,CAAC"}

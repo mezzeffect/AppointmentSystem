@@ -1,0 +1,30 @@
+.root {
+  padding-bottom: 40px;
+}
+
+.root:before {
+  content: ' ';
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  right:0;
+  left: 0;
+  bottom: 0;
+  background-image:
+    radial-gradient(
+      /*to top right,*/
+      #488FD0,
+      #063A59
+    );
+}
+
+.content {
+  margin: 0 auto;
+  /*max-width: 1000px;*/
+  width: 100%;
+}
+
+body {
+  color: #b4dbff;
+  background-color: #063A59;
+}
