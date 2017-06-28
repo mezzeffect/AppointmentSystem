@@ -11,10 +11,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="ClientApp\components\editOpportunity\**" />
     <Compile Remove="ClientApp\containers\opportunity\**" />
     <Compile Remove="node_modules\**\*" />
+    <Content Remove="ClientApp\components\editOpportunity\**" />
     <Content Remove="ClientApp\containers\opportunity\**" />
+    <EmbeddedResource Remove="ClientApp\components\editOpportunity\**" />
     <EmbeddedResource Remove="ClientApp\containers\opportunity\**" />
+    <None Remove="ClientApp\components\editOpportunity\**" />
     <None Remove="ClientApp\containers\opportunity\**" />
     <None Update="ClientApp\dist\**\*;Views\**\*;wwwroot\**\*">
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
